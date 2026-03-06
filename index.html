@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A Message for Zandi</title>
+
+<style>
+body{
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg,#0d3b66,#1b6ca8);
+color:white;
+text-align:center;
+padding:40px;
+}
+
+h1{
+font-size:60px;
+color:#ffd166;
+}
+
+h2{
+font-size:32px;
+margin-top:10px;
+}
+
+p{
+font-size:22px;
+}
+
+img{
+max-width:85%;
+border-radius:12px;
+margin-top:25px;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+button{
+margin-top:35px;
+padding:16px 32px;
+font-size:20px;
+background:#ffd166;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#ffbf00;
+}
+
+.hidden{
+display:none;
+font-size:26px;
+margin-top:25px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>KEEP ON STUDYING</h1>
+
+<h2>Zandi, this message is for you.</h2>
+
+<p>Your hard work will pay off.</p>
+
+<img src="poster.jpg">
+
+<br>
+
+<button onclick="showMessage()">Open your message</button>
+
+<div id="msg" class="hidden">
+Zandi, keep pushing forward.  
+You are capable of amazing things.  
+
+Study hard.  
+Keep learning.  
+Achieve your goals.  
+
+Someone believes in you.
+</div>
+
+<script>
+function showMessage(){
+document.getElementById("msg").style.display="block";
+}
+</script>
+
+</body>
+</html>
